@@ -1,10 +1,15 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
+.grid {
+  display: grid;
+  grid-template: 100px 100px 100px / 200px 200px 200px;
 }
 
-body {
-  display: grid;
-  grid-template: 100px 100px / 250px 250px 250px;
+.grid-item {
+  background: #b823c1;
+  color: white;
+  padding: 1em 2em;
+  border: 2px solid purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
